@@ -1,0 +1,23 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "config": {
+    "js": [
+      "js/config.js"
+    ],
+    "html": "html/config.html",
+    "css": []
+  },
+  "icon": "image/icon.png",
+  "name": {
+    "en": "dianziqian",
+    "ja": "dianziqian",
+    "zh": "电子牵"
+  },
+  "description": {
+    "en": "hide the token",
+    "ja": "hide the token",
+    "zh": "隐藏 token"
+  }
+}

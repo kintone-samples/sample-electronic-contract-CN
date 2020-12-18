@@ -1,0 +1,42 @@
+{
+  "name": "bytedance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@kintone/kintone-ui-component": "^0.7.4",
+    "babel-preset-stage-0": "^6.24.1",
+    "corejs": "^1.0.0",
+    "crypto": "^1.0.1",
+    "css-loader": "^5.0.0",
+    "file": "^0.2.2",
+    "fs": "0.0.1-security",
+    "style-loader": "^2.0.0",
+    "uuid": "^8.3.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.3.1",
+    "@cybozu/eslint-config": "^8.1.0",
+    "@kintone/customize-uploader": "^3.0.1",
+    "babel-loader": "^8.1.0",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "glob": "^7.1.6",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack  --mode production"
+  },
+  "author": "",
+  "license": "ISC"
+}
