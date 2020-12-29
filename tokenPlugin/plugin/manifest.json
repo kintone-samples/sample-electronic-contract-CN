@@ -9,11 +9,22 @@
     "html": "html/config.html",
     "css": []
   },
+  "desktop": {
+    "js": [
+        "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js",
+        "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js",
+        "https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js",
+        "desktop/getcerturl.js"
+    ],
+    "css": [
+        "https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+    ]
+  },
   "icon": "image/icon.png",
   "name": {
     "en": "dianziqian",
     "ja": "dianziqian",
-    "zh": "电子牵"
+    "zh": "电子牵用户管理"
   },
   "description": {
     "en": "hide the token",
